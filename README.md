@@ -7,7 +7,7 @@ This helper takes in two parameters, the collection to query and the ID of the d
 #### Example
 
 ```
-{{#with objectForId 'Meteor.users' this}}
+{{#with objectForId 'Meteor.users' 'oQ9Ed7PBbsGpyMkMg'}}
   <h1>{{_id}}</h1>
   <h2>{{username}}</h2>
 {{/with}}
